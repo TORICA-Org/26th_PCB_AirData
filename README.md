@@ -7,7 +7,7 @@ PCBエディターで基板上の配線をするときに気をつけてほし�
 これから表面実装化に向けた，小さく密度の高い基板を作ろうとするとKiCadの初期設定状態では不便が生じます．それは例えば配線のクリアランス（配線同士の最低間隔）やビア半径の初期設定値が大きすぎるためです．  
 以下の画像下部のGNDビアはその上のコンデンサと同じぐらいの大きさになっていて，もはや邪魔です．  
 <img width="300" height="778" alt="image" src="https://github.com/user-attachments/assets/9dc073f4-7d39-4f44-b29c-0b9c6b46b7a5" />  
-そこで，以下の画像左上「ビア：ネットクラスのサイズを使用」からより小さい半径を指定できるのですが，[JLCPCBの製造能力](https://jlcpcb.com/jp/capabilities/pcb-capabilities)には限界があるわけでその限界を突破しないギリギリで設計する必要があります．その限界を突破していないか確認してくれる機能を活用するためにKiCad初期設定を変更します．  
+そこで，以下の画像左上「ビア：ネットクラスのサイズを使用」からより小さい半径を指定できるのですが，[JLCPCBの製造能力](https://jlcpcb.com/jp/capabilities/pcb-capabilities)には限界があるわけでその限界を突破しないギリギリで設計する必要があります．その限界を突破していないか確認してくれる機能を活用するためにKiCad初期設定を変更します．この設定はプロジェクトを新たに作成する際に毎回設定する必要があります．  
 <img width="1000" height="990" alt="image" src="https://github.com/user-attachments/assets/cacfa8a9-fa94-4381-ad05-0062fc997e36" />
 1. ファイル ＞ 基板の設定
 <img width="1000" height="1017" alt="image" src="https://github.com/user-attachments/assets/38d11a01-088e-4200-a178-2f459dd85d28" />  
