@@ -15,8 +15,8 @@ PCBエディターで基板上の配線をするときに気をつけてほし�
 2. デザインルール ＞ 制約
 <img width="1000" height="1018" alt="image" src="https://github.com/user-attachments/assets/01847bb4-8a08-4854-8415-595e29ed0c79" />
 
-3. 以下のようにパラメータを変更
-<img width="350" height="695" alt="image" src="https://github.com/user-attachments/assets/db7b8c8f-52e0-461f-bd9d-095a752814f5" />
+3. 以下のようにパラメータを変更  
+<img width="350" height="695" alt="image" src="https://github.com/user-attachments/assets/21b9aa41-c766-480c-8a95-613a901dcd0f" />  
 
 ---  
 
