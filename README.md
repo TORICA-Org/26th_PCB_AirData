@@ -8,7 +8,9 @@ PCBエディターで基板上の配線をするときに気をつけてほし�
 以下の画像下部のGNDビアはその上のコンデンサと同じぐらいの大きさになっていて，もはや邪魔です．  
 <img width="300" height="778" alt="image" src="https://github.com/user-attachments/assets/9dc073f4-7d39-4f44-b29c-0b9c6b46b7a5" />  
 そこで，以下の画像左上「ビア：ネットクラスのサイズを使用」からより小さい半径を指定できるのですが，[JLCPCBの製造能力](https://jlcpcb.com/jp/capabilities/pcb-capabilities)には限界があるわけでその限界を突破しないギリギリで設計する必要があります．その限界を突破していないか確認してくれる機能を活用するためにKiCad初期設定を変更します．この設定はプロジェクトを新たに作成する際に毎回設定する必要があります．  
-<img width="1000" height="990" alt="image" src="https://github.com/user-attachments/assets/cacfa8a9-fa94-4381-ad05-0062fc997e36" />
+<img width="1000" height="990" alt="image" src="https://github.com/user-attachments/assets/cacfa8a9-fa94-4381-ad05-0062fc997e36" />  
+ただし注意点の一つとして，**ビアのサイズを小さくすると急激に価格が跳ね上がる**ということがあります．これはJLCPCBの製造能力ページを見るだけではわからず，発注画面まで行って分かることなのですがビア外径0.4mm，内径0.3mmを下回るサイズのビアを打つとその個数に関わらず＋￥7200~9700されます．絶望ですね．はい...気をつけましょう．私はそんなことも知らず発注直前まで行って気付き，1430個のビアを打ち直すことになりました(┬┬﹏┬┬)
+  
 1. ファイル ＞ 基板の設定
 <img width="1000" height="1017" alt="image" src="https://github.com/user-attachments/assets/38d11a01-088e-4200-a178-2f459dd85d28" />  
 
