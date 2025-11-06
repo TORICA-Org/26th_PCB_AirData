@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BNO055")(type "KiCad")(uri "${KIPRJMOD}/lib/BNO055.kicad_sym")(options "")(descr ""))
+  (lib (name "FXMA2102L8X")(type "KiCad")(uri "${KIPRJMOD}/lib/FXMA2102L8X.kicad_sym")(options "")(descr ""))
+  (lib (name "LP5907MFX-2.8_NOPB")(type "KiCad")(uri "${KIPRJMOD}/lib/LP5907MFX-2.8_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "Around_BNO")(type "KiCad")(uri "${KIPRJMOD}/Around_BNO.kicad_sym")(options "")(descr ""))
+  (lib (name "FC-135_32.7680KA-A0")(type "KiCad")(uri "${KIPRJMOD}/lib/FC-135_32.7680KA-A0.kicad_sym")(options "")(descr ""))
+)

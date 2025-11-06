@@ -1,0 +1,82 @@
+(footprint "Schottly new SBR2U30P1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.21 -1.97 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b02de5e0-9e18-4c2c-9ea6-1dee5accfc3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Schottly new SBR2U30P1"
+		(at 0.21 -0.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7ea3bcb-2be6-4ef4-821a-d87f54c41bbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.21 -1.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51ca84bd-e4ec-4562-8f91-01f0ddfdfa0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.21 -1.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9b1c5a9-a9b1-4fb7-a4f8-f192cb12d19d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.22 -0.81)
+		(end 1.58 0.97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "06ea05e8-02a5-4f04-bde1-8e005d125c3e")
+	)
+	(pad "1" smd rect
+		(at 1.05 0.08 180)
+		(size 2.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4180ac8b-4566-458c-b8a2-a6dfe1af0d08")
+	)
+	(pad "2" smd rect
+		(at -1.325 0.08 180)
+		(size 1.05 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Eco1.User")
+		(uuid "01e07727-974c-4881-8cf7-b01002f205b3")
+	)
+	(embedded_fonts no)
+)
