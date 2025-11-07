@@ -626,297 +626,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2375,20 +2084,6 @@
 		)
 		(uuid "69d0e92d-32e7-4519-a7a6-e01ece95d085")
 	)
-	(text "RX_ESPは排除しました"
-		(exclude_from_sim no)
-		(at 210.566 137.668 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "6dab8b3d-0d74-444e-b01e-92cdd302fe8a")
-	)
 	(text "RX_IN"
 		(exclude_from_sim no)
 		(at 171.704 87.63 0)
@@ -2448,20 +2143,6 @@
 			)
 		)
 		(uuid "96bd2d47-0afc-4c85-ac55-a5d43d0f6a28")
-	)
-	(text "RX_ESPは排除しました"
-		(exclude_from_sim no)
-		(at 78.232 115.57 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "a36c56f9-933d-457e-aea5-e70a31ac3a41")
 	)
 	(text "Bico"
 		(exclude_from_sim no)
@@ -2562,10 +2243,6 @@
 			)
 		)
 		(uuid "ff5bc4fb-b2e4-4514-9e42-5901eb9c1294")
-	)
-	(no_connect
-		(at 180.34 135.89)
-		(uuid "1e964578-9923-4941-9558-40fbca7b6e64")
 	)
 	(no_connect
 		(at 132.08 121.92)
@@ -3561,6 +3238,16 @@
 		)
 		(uuid "aa1f2942-8da6-4fd7-a5af-216066a88f7e")
 	)
+	(label "RX_ESP"
+		(at 180.34 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab3cce63-c610-4fcd-9834-c49cdb57cc46")
+	)
 	(label "RX_SD0"
 		(at 158.75 55.88 0)
 		(effects
@@ -3641,6 +3328,16 @@
 		)
 		(uuid "d14f28b4-9c50-4fb3-bfc3-de2ffab428cc")
 	)
+	(label "SIG_ICS"
+		(at 260.35 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1d9a651-59e9-4d88-93ee-a843da566f0f")
+	)
 	(label "SDA_AS0"
 		(at 60.96 129.54 180)
 		(effects
@@ -3670,16 +3367,6 @@
 			(justify right bottom)
 		)
 		(uuid "d97e8ddd-27d4-48fd-a68b-a170bf850843")
-	)
-	(label "SIG_ICS"
-		(at 38.1 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da403d5c-ded0-4642-a159-7d6b2009f1cb")
 	)
 	(label "GND_BNO"
 		(at 127 21.59 0)
@@ -3761,6 +3448,16 @@
 		)
 		(uuid "ed0d0bd1-82bf-4480-a3ec-3ee41a83468e")
 	)
+	(label "RX_ESP"
+		(at 38.1 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed7bda8c-ac9e-4572-94ab-4023b46012be")
+	)
 	(label "SDA_BNO_BMP"
 		(at 38.1 129.54 0)
 		(effects
@@ -3812,8 +3509,8 @@
 		(uuid "fd68ac9f-90e2-4f5e-8403-eed9267993fd")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 265.43 27.94 0)
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 265.43 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3822,7 +3519,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fd8a53d-6c48-4a17-9cd3-d9b912e1b24a")
 		(property "Reference" "J10"
-			(at 266.7 26.6699 0)
+			(at 266.7 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3528,7 @@
 			)
 		)
 		(property "Value" "XIAO_Rudder"
-			(at 266.7 29.2099 0)
+			(at 266.7 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,8 +3536,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ブレッドボード_3:CONN5_B05B-PASK_JST"
-			(at 265.43 27.94 0)
+		(property "Footprint" "ブレッドボード_3:CONN_B06B-PASK_JST"
+			(at 265.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 27.94 0)
+			(at 265.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,8 +3554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 265.43 27.94 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 265.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,6 +3577,9 @@
 		)
 		(pin "5"
 			(uuid "293f330d-2646-41c8-afca-2af611ad8a00")
+		)
+		(pin "6"
+			(uuid "6e065a00-9eca-4cd6-9c37-39b2b43cdd04")
 		)
 		(instances
 			(project "ブレッドボード_3"
