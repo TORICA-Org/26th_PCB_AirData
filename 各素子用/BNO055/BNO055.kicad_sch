@@ -2342,6 +2342,12 @@
 		(uuid "ba954f89-bbaf-4387-9474-2e8a5913a587")
 	)
 	(junction
+		(at 129.54 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4ee2ab1-35cd-4426-8ce4-eb52709558c2")
+	)
+	(junction
 		(at 205.74 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2372,10 +2378,6 @@
 	(no_connect
 		(at 209.55 45.72)
 		(uuid "b970191d-9c5e-4be5-ac45-598725bf5e1d")
-	)
-	(no_connect
-		(at 209.55 66.04)
-		(uuid "c3f4eafa-89d4-4207-80a8-691d56cbf1b6")
 	)
 	(wire
 		(pts
@@ -2419,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 129.54 76.2)
+			(xy 129.54 43.18) (xy 129.54 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2496,6 +2498,16 @@
 			(type default)
 		)
 		(uuid "1a7b8e31-16ac-4c9b-9ce2-a60ba7bbaed4")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 209.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b470fbd-a0aa-4a5b-993f-ee06f8c9054a")
 	)
 	(wire
 		(pts
@@ -2636,6 +2648,16 @@
 			(type default)
 		)
 		(uuid "440bd22b-e7b2-4bd1-b5c7-bda683569f56")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463ba999-c1c8-43d4-994e-7471d7e93006")
 	)
 	(wire
 		(pts
@@ -3545,7 +3567,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19169736-c4fc-4f66-8eb0-0c138d876aa7")
 		(property "Reference" "TP5"
 			(at 207.01 56.3879 0)
@@ -3557,7 +3578,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 207.01 58.9279 0)
+			(at 194.564 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4701,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "630a5295-09e5-4334-84fd-b57c754b1436")
 		(property "Reference" "TP3"
 			(at 204.47 53.8479 0)
@@ -4692,7 +4712,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 204.47 56.3879 0)
+			(at 193.548 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5460,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac8e4b12-b9e4-48cf-8567-a272494516ad")
 		(property "Reference" "TP4"
 			(at 209.55 48.7679 0)
@@ -5452,7 +5471,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 209.55 51.3079 0)
+			(at 200.66 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
