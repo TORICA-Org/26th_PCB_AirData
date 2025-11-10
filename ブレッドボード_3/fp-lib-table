@@ -4,4 +4,5 @@
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
   (lib (name "PA_Conn_5P")(type "KiCad")(uri "${KIPRJMOD}/PA_Conn_5P.pretty")(options "")(descr ""))
   (lib (name "PA_Conn_6P")(type "KiCad")(uri "${KIPRJMOD}/PA_Conn_6P.pretty")(options "")(descr ""))
+  (lib (name "PA_Conn_2P")(type "KiCad")(uri "${KIPRJMOD}/PA_Conn_2P.pretty")(options "")(descr ""))
 )

@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J6",PinSocket_2x06_P2.54mm_Vertical,2,Conn_01x12_Socket,
+J2,PinSocket_1x04_P2.54mm_Vertical,1,BMP390,
+J3,PA_Connector_Post_2Pin,1,LiPo,
+"U1, U2, U3, U4, U5",Converter_DCDC_RECOM_R-78E-0.5_THT,5,MCP1703Ax-120xxDB,
+U6,Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM,1,XIAO-ESP32-S3-SMD,

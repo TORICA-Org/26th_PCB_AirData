@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,PinSocket_1x04_P2.54mm_Vertical,1,SDP31-500,
+J2,PinSocket_1x06_P2.54mm_Vertical,1,AS5600_1,
+J3,PinSocket_1x06_P2.54mm_Vertical,1,SD_1,
+J4,PinSocket_1x06_P2.54mm_Vertical,1,AS5600_0,
+J5,PinHeader_2x06_P2.54mm_Horizontal,1,Conn_01x12_Socket,
