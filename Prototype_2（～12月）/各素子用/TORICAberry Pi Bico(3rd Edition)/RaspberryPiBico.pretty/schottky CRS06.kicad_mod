@@ -1,0 +1,81 @@
+(footprint "schottky CRS06"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "D1"
+		(at 0.46 -1.23 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ade4fc8a-f939-4a6f-a18f-a0159a484ff9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "schottky CRS06"
+		(at 0 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af428bcc-4e85-47fb-bf3a-ad9f8bb4cec0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c206e8cd-595d-4eb2-9443-4262a5d4bbeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47f2ef20-1c35-4930-8281-210d1dfd0f03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.87 -0.89)
+		(end 1.93 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5ae67d64-c460-43b3-b27d-f28ad4c7bc3c")
+	)
+	(pad "1" smd rect
+		(at 1.4 0 180)
+		(size 2.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2721ba5d-5805-492e-973b-bf88437df573")
+	)
+	(pad "2" smd rect
+		(at -0.975 0 180)
+		(size 1.05 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Eco1.User")
+		(uuid "8e8af9b3-65d2-4c38-a8c1-9c8b6093e7d2")
+	)
+	(embedded_fonts no)
+)

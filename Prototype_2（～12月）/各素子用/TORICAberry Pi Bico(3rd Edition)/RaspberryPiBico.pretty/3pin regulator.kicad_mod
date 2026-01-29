@@ -1,0 +1,98 @@
+(footprint "3pin regulator"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Regurator"
+		(at -4 0.1 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "28d9e0f6-fea2-4e3d-8225-12616adba6f1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "3pin regulator"
+		(at 0 2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f577eb5-aad3-4fe0-ba42-9715bce16744")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bb3077e-903b-42ad-bffe-000c8e9810e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eedb88d0-1e93-4662-9be2-458c07ab5e51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.5 -1.75)
+		(end 3.5 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fd54438e-1614-4be3-95c7-ccd8829f463d")
+	)
+	(pad "1" smd rect
+		(at -2.3 3.2)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "71e2859d-62df-4c54-b341-4386f65cef0b")
+	)
+	(pad "2" smd rect
+		(at 0 -3)
+		(size 3.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "eddfcf20-40fd-4e0c-9370-5eac31cbe7b1")
+	)
+	(pad "2" smd rect
+		(at 0 3.2)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5bb78bb0-9a9f-4e0f-9345-8c0e4bfa4da8")
+	)
+	(pad "3" smd rect
+		(at 2.3 3.2)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b26b080f-aac1-426b-8188-c8ab09483c46")
+	)
+	(embedded_fonts no)
+)
