@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.8*%
+%TF.CreationDate,2026-04-07T19:05:52+09:00*%
+%TF.ProjectId,Teseo-LIV3FL(GNSS module),54657365-6f2d-44c4-9956-33464c28474e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.8) date 2026-04-07 19:05:52*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X70000000Y-50000000D02*
+X87000000Y-50000000D01*
+X87000000Y-77500000D01*
+X70000000Y-77500000D01*
+X70000000Y-50000000D01*
+M02*
