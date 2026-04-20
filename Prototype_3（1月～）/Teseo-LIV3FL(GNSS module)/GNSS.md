@@ -4,11 +4,11 @@
 | 部品名 | 個数 | リンク | 備考 |
 | --- | --- | --- | --- |
 | IC1 Teseo-LIV3FLF | 1 | https://akizukidenshi.com/catalog/g/g130031/ |  |
-| R1 200Ω | 1 |  | SMD 3216 |
-| R2 10Ω | 1 |  | SMD 3216 |
-| C1 0.1μF | 1 |  | SMD 1608 |
+| R1 200Ω | 1 |  https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0ECC# | SMD 3216 |
+| R2 10Ω | 1 |  https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0EBH | SMD 3216 |
+| C1 0.1μF | 1 | https://akizukidenshi.com/catalog/g/g116143/ | SMD 1608 |
 | L1 27nH | 1 | https://www.monotaro.com/g/04259779/ | SMD 1005 サイズ小さい．表面実装できる？あと秋月にはない．|
-| D1 LED | 1 |  | SMD 3216 |
+| D1 LED | 1 | https://akizukidenshi.com/catalog/g/g109639/ | SMD 3216 |
 | J1 コネクタ | 1 | https://akizukidenshi.com/catalog/g/g115417/ |  |
 | アンテナ | 1 | https://akizukidenshi.com/catalog/g/g130030/ |  |
 
