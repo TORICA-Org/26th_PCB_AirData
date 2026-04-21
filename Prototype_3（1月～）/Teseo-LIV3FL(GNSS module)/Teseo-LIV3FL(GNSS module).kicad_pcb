@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Teseo_jlcpcb/")
+			(outputdirectory "Teseo_gerber/")
 		)
 	)
 	(net 0 "")
@@ -1413,7 +1413,7 @@
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at 3.5 0 90)
+			(at 3.5 -0.5 90)
 			(layer "F.SilkS")
 			(uuid "072b2251-3b2b-4d9c-910b-142f25ba0402")
 			(effects
@@ -2446,7 +2446,7 @@
 	(footprint "library:REWRITE_logo"
 		(layer "B.Cu")
 		(uuid "d1985e28-87d3-4b68-a29f-fcc9db9f5762")
-		(at 75.761207 72.753171 -90)
+		(at 79.234181 71.432168 -90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "B.SilkS")
@@ -6541,6 +6541,17 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_circle
+		(center 81.6 60)
+		(end 82.1 60)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "02d4ba63-4bd5-4d8d-8b62-bc1f92fb2c3a")
+	)
 	(gr_rect
 		(start 70 50)
 		(end 87 77.5)
@@ -6551,6 +6562,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "16160d49-e044-4ef8-aa3a-174af3309fc0")
+	)
+	(gr_text "+"
+		(at 83.5 63.005 0)
+		(layer "F.SilkS")
+		(uuid "3acf14c8-c42a-404f-8094-ef612e71f0f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Teseo-LIV3FL"
 		(at 86.5 77 0)
@@ -6564,7 +6587,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "3V3"
+	(gr_text "GNSS-TX<->MCU-RX"
 		(at 73 55.5 90)
 		(layer "B.SilkS")
 		(uuid "c01f2ca1-5e35-41f8-813a-2da09d2931b1")
@@ -6577,7 +6600,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GND"
+	(gr_text "3V3"
 		(at 75.5 55.5 90)
 		(layer "B.SilkS")
 		(uuid "03148f22-1d54-45b6-9601-dedfa49228d4")
@@ -6590,7 +6613,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "1PPS"
+	(gr_text "GND"
 		(at 78 55.5 90)
 		(layer "B.SilkS")
 		(uuid "171baf36-5f29-4e37-baff-bd9ba0e0b372")
@@ -6603,7 +6626,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GNSS-RX<->MCU-TX"
+	(gr_text "PPS"
 		(at 80.5 55.5 90)
 		(layer "B.SilkS")
 		(uuid "ae05b4f4-ff27-4d61-a989-9c9702d19c47")
@@ -6616,7 +6639,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GNSS-TX<->MCU-RX"
+	(gr_text "GNSS-RX<->MCU-TX"
 		(at 83.5 55.5 90)
 		(layer "B.SilkS")
 		(uuid "e4a59eb0-0202-480e-8e5f-7cc13526c10b")
